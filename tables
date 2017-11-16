@@ -3,9 +3,14 @@
   <body>
     <table>
       <tr>
-        <tb>Stuff 1</tb>
-        <tb>Stuff 2</tb>
-        <tb>Stuff 3</tb>
+        <th>Stuff 1</th>
+        <th>Stuff 2</th>
+        <th>Stuff 3</th>
+      </tr>
+      <tr>
+        <td>Blech</td>
+        <td>Other Blech</td>
+        <td>BLARGH</td>
       </tr>
     </table>
   </body>
