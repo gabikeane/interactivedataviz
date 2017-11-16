@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <table>
+      <tr>
+        <tb>Stuff 1</tb>
+        <tb>Stuff 2</tb>
+        <tb>Stuff 3</tb>
+      </tr>
+    </table>
+  </body>
+</html>
