@@ -1,0 +1,29 @@
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawMaterial);
+
+function drawMaterial() {
+      var data = google.visualization.arrayToDataTable([
+        ['Retailer', 'Unique Visitors', ''],
+        ['Amazon', 7950000, 0],
+        ['Walmart.com', 4150000, 0],
+        ['Best Buy', 3750000, 0],
+        ['Target', 2850000, 0],
+        ['Apple', 2575000, 0]
+      ]);
+
+      var materialOptions = {
+        chart: {
+          title: 'E-commerce Site Visits of Top 5 Retailers'
+        },
+        hAxis: {
+          title: 'Total Unique Visitors',
+          minValue: 0,
+        },
+        vAxis: {
+          title: 'Retailer'
+        },
+        bars: 'horizontal'
+      };
+      var materialChart = new google.charts.Bar(document.getElementById('chart_div'));
+      materialChart.draw(data, materialOptions);
+    }
